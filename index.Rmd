@@ -1,12 +1,13 @@
 ---
-title: "Presentation Ninja"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+title: "R-Ladies xaringan Template"
+subtitle: "Presentation subtitle"
+author: "Your Name"
+institute: "Your Institute"
+date: "2021/03/16"
 output:
   xaringan::moon_reader:
     lib_dir: libs
+    css: ["rladies", "rladies-fonts", "css/rladies-mod.css"]
     nature:
       highlightStyle: github
       highlightLines: true
