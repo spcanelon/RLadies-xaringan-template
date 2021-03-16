@@ -27,6 +27,14 @@ background-size: cover
 
 Photo by [Vincentiu Solomon](https://unsplash.com/@vincentiu)
 
+???
+This slide uses:
+- a custom `title-slide` class that removes the slide number from the title slide
+- a background image
+  - background-image: url(img/PurpleSky.jpg)
+  - background-position: bottom
+  - background-size: cover
+
 ---
 class: inverse, middle, center
 
@@ -48,6 +56,10 @@ If you like this R-Ladies themed xaringan template, you can clone it: **usethis:
 ???
 Hello! My name is R-Ladies Global and I'm excited to be here to help promote gender diversity in the R community.
 
+This slide uses:
+- the `inverse`, `middle`, and `center` slide classes
+- an image inserted with html
+
 ---
 
 .left-column[
@@ -68,6 +80,12 @@ The R community suffers from an underrepresentation of minority genders (includi
 ----
 Original source: https://rladies.org/about-us]
 ]
+
+???
+This slide uses:
+- the `.left-column[]` and `.right-column[]` classes
+- a horizontal bar
+- the `.footnote[]` class
 
 ---
 # Making lists and emphasizing text
@@ -99,6 +117,13 @@ And with the help of Markdown you can write text in **bold** and _italics_
 These numbers come from the [Shiny R Community Explorer](https://benubah.github.io/r-community-explorer/rladies.html) developed by Ben Ubah
 ]
 
+???
+This slide uses:
+- bullet lists with `*`
+- incremental slides divided by `--`
+- a horizontal bar
+- the `.footnote[]` class
+
 ---
 # Inserting images
 
@@ -114,6 +139,11 @@ knitr::include_graphics("img/RLadiesMap.png")
 &gt; Note: You can use the `fig.alt` code chunk option to add alternative text to your images, that way they are accessible to screen reader users:
 - In code chunk: `{r, fig.alt = "&lt;descriptive alt text&gt;"}`.
 - Read more about this in [{knitr} NEWS.md](https://github.com/yihui/knitr/blob/master/NEWS.md#new-features-1)
+
+???
+This slide uses:
+- an image inserted with `knitr::include_graphics()`
+- the `fig.alt =` code chunk option for alternative text
 
 ---
 # Tables and quotes
@@ -174,11 +204,19 @@ Measurements like `body_mass_g`
 &lt;/table&gt;
 ]
 
+???
+This slide uses:
+- the `.pull-left[]` and `.pull-right[]` classes
+- an R code chunk to produce the html table
+
 --
 
 ### Quote
 
 &gt; You can read more about the `palmerpenguins` data package authored and maintained by Allison Horst at [allisonhorst.github.io/palmerpenguins](https://allisonhorst.github.io/palmerpenguins/)
+
+???
+- a quote with `&gt;`
 
 ---
 # Highlighting code
@@ -204,6 +242,11 @@ palmerpenguins::penguins %&gt;%
 * geom_boxplot(aes(fill = island))
 ```
 
+???
+This slide uses:
+- inline code highlighting with backticks ` `` `
+- a code chunk to produce a ggplot
+
 ---
 
 
@@ -214,6 +257,11 @@ palmerpenguins::penguins %&gt;%
 ```
 
 ![](index_files/figure-html/penguin-body-mass-1.png)&lt;!-- --&gt;
+
+???
+This slide uses:
+- a code chunk to produce a ggplot
+- code chunk option `fig.height = 4.5` to control the figure height
 
 ---
 class: middle, inverse
