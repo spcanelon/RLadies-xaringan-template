@@ -7,15 +7,21 @@ This CSS has been adapted by:
 Silvia Canelón (https://silvia.rbind.io)
 
 The primary modifications are:
-1. increasing code font size (pre code)
-2. changing highlight shade color (.remark-code-line-highlighted)
-3. additional commenting
+1. increasing prose font size (.remark-slide-content)
+2. increasing code font size (pre code)
+3. changing code highlight color (.remark-code-line-highlighted)
+4. additional commenting
 */
 
+/*----------------------------------------------------------------------------*/
+
 /*
+Some notes on font size units:
+
 rem is a relevant font size unit, it stands for "relative to the 'root' em-dash", and it's 16px by default on (all?) HTML pages.
 em is another relevant font size unit, it's relative to the em-dash, and it's relative to the container it's in.
-resource: https://css-tricks.com/rems-ems/
+Reading resource: https://css-tricks.com/rems-ems/
+
 */
 
 
@@ -38,7 +44,7 @@ a, a > code {
 }
 
 /*-- Inline code --*/
-/* 1rem = 16px, 1em = 20px, em here means it depends on the size of .remark-slide-content (below). For example, using 0.8em or 80% instead would make the text 80% as large as the .remark-slide-content text size (1.5em below) */
+/* 1rem = 16px, 1em = 20px, em here means it depends on the size of .remark-slide-content (above). For example, using 0.8em or 80% instead would make the text 80% as large as the .remark-slide-content text size (1.25em above) */
 
 .remark-code, .remark-inline-code {
   font-family: 'Inconsolata', 'Lucida Console', Monaco, monospace;
@@ -65,3 +71,6 @@ pre code {
 .inverse, .inverse h1, .inverse h2, .inverse h3, .inverse a, inverse a > code {
   color: #fff;
 }
+
+/*-- Hides slide number from title slide --*/
+.title-slide .remark-slide-number { display: none; }
