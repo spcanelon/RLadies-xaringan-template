@@ -238,7 +238,7 @@ This slide uses:
 - code chunk option `fig.height = 4.5` to control the figure height
 
 ---
-class: middle, inverse
+class: middle, inverse, title-slide
 
 .pull-left[
 # Thank you!
