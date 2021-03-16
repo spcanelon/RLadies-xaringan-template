@@ -51,7 +51,8 @@ This slide uses:
 ---
 class: inverse, middle, center
 
-<img style="border-radius: 50%;" src="img/RLadiesGlobal.png"
+<img style="border-radius: 50%;" 
+src="img/RLadiesGlobal.png"
 width="150px"
 />
 
