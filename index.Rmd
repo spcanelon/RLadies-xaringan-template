@@ -34,7 +34,6 @@ background-image: url(img/PurpleSky.jpg)
 background-position: bottom
 background-size: cover
 
-
 # `r rmarkdown::metadata$title`
 ## `r rmarkdown::metadata$author`
 
@@ -66,6 +65,8 @@ width="150px"
 --
 
 If you like this R-Ladies themed xaringan template, you can clone it: **usethis::create_from_github("spcanelon/RLadies-xaringan-template")**
+
+And learn how to deploy xaringan slides to GitHub Pages in this blog post:<br> [silvia.rbind.io/2021-03-16-deploying-xaringan-slides](https://silvia.rbind.io/2021-03-16-deploying-xaringan-slides)
 
 ???
 Hello! My name is R-Ladies Global and I'm excited to be here to help promote gender diversity in the R community.
