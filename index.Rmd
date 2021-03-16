@@ -1,7 +1,7 @@
 ---
-title: "Xaringan Template"
+title: "R-Ladies Themed<br>xaringan Template"
 subtitle: "Presentation subtitle"
-author: "R-Ladies"
+author: "R-Ladies Global"
 institute: "Your Institute"
 date: "March 16th, 2021"
 output:
@@ -35,7 +35,6 @@ background-position: bottom
 background-size: cover
 
 # `r rmarkdown::metadata$title`
-## `r rmarkdown::metadata$author`
 
 Photo by [Vincentiu Solomon](https://unsplash.com/@vincentiu)
 
