@@ -51,7 +51,7 @@ This slide uses:
 ---
 class: inverse, middle, center
 
-<img style="border-radius: 50%;" src="https://pbs.twimg.com/profile_images/877346259861778432/Y8MNMTF9_400x400.jpg"
+<img style="border-radius: 50%;" src="img/RLadiesGlobal.png"
 width="150px"
 />
 
@@ -249,7 +249,7 @@ class: middle, inverse
 .pull-right[
 .right[
 <img style="border-radius: 50%;"
-src="https://pbs.twimg.com/profile_images/877346259861778432/Y8MNMTF9_400x400.jpg"
+src="img/RLadiesGlobal.png"
 width="150px" />
 
 [`r fontawesome::fa("link", fill = "#FFFFFF")` rladies.org](https://rladies.org)<br/>
