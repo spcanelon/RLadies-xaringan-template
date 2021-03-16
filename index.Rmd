@@ -7,7 +7,11 @@ date: "March 16th, 2021"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["default", "rladies", "rladies-fonts", "css/rladies-mod.css"]
+    css:
+      - default
+      - rladies
+      - rladies-fonts
+      - css/rladies-mod.css
     seal: false
     nature:
       highlightStyle: github
@@ -61,6 +65,9 @@ width="150px"
 [`r fontawesome::fa("paper-plane", fill = "#FFFFFF")` info@rladies.org](mailto:info@rladies.org)<br>
 [`r fontawesome::fa("slack", fill = "#FFFFFF")` Join the Slack](https://rladies-community-slack.herokuapp.com/)
 
+???
+Hello! My name is R-Ladies Global and I'm excited to be here to help promote gender diversity in the R community.
+
 --
 
 If you like this R-Ladies themed xaringan template, you can copy it to your computer: **usethis::use_course("spcanelon/RLadies-xaringan-template")**
@@ -68,8 +75,6 @@ If you like this R-Ladies themed xaringan template, you can copy it to your comp
 And learn how to deploy xaringan slides to GitHub Pages in this blog post:<br> [silvia.rbind.io/2021-03-16-deploying-xaringan-slides](https://silvia.rbind.io/2021-03-16-deploying-xaringan-slides)
 
 ???
-Hello! My name is R-Ladies Global and I'm excited to be here to help promote gender diversity in the R community.
-
 This slide uses:
 - the `inverse`, `middle`, and `center` slide classes
 - an image inserted with html
@@ -127,14 +132,20 @@ The R-Ladies Community has:
 
 And with the help of Markdown you can write text in **bold** and _italics_
 
+--
+
+1. And make numbered lists
+1. like this one
+
 .footnote[
 These numbers come from the [Shiny R Community Explorer](https://benubah.github.io/r-community-explorer/rladies.html) developed by Ben Ubah
 ]
 
 ???
 This slide uses:
-- bullet lists with `*`
+- bullet list with `*`
 - incremental slides divided by `--`
+- numbered list with `1.`
 - a horizontal bar
 - the `.footnote[]` class
 
