@@ -7,11 +7,12 @@ This CSS has been adapted by:
 Silvia Canelón (https://silvia.rbind.io)
 
 The primary modifications are:
-1. adding bottom border for links and removes them upon hovering (a and a > code)
-2. increasing prose font size (.remark-slide-content)
-3. increasing code font size (pre code)
-4. changing code highlight color (.remark-code-line-highlighted)
-5. additional commenting
+1. adding text underlining for links and removing the underline upon hovering (a and a > code)
+2. adding a black background color to the horizontal bar
+3. increasing prose font size (.remark-slide-content)
+4. increasing code font size (pre code)
+5. changing code highlight color (.remark-code-line-highlighted)
+6. additional commenting
 */
 
 /*----------------------------------------------------------------------------*/
@@ -35,12 +36,15 @@ h1, h2, h3 {
 /*-- Links/anchors --*/
 a, a > code {
   color: #88398a;
-  border-bottom: 3px solid #88398a;
+  text-decoration: underline 2px;
   line-height: 2rem;
 }
 
-/*  */
-a:hover { border-bottom: none;}
+/*-- Links/anchors upon hovering --*/
+a:hover { text-decoration: none;}
+
+/*-- Horizontal bar --*/
+hr {background-color: black;}
 
 /*-- Prose Text --------*/
 /* controls size of prose text but not headings */
@@ -80,8 +84,10 @@ pre code {
 
 .inverse a {
   color: #fff;
-  border-bottom: 3px solid #fff;
+  text-decoration: underline 2px;
 }
+
+.inverse a:hover { text-decoration: none;}
 
 /*-- Hides slide number from title slide --*/
 .title-slide .remark-slide-number { display: none; }
