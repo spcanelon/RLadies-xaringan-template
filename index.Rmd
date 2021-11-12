@@ -56,17 +56,23 @@ class: inverse, middle, center
 <img style="border-radius: 50%;" 
 src="img/RLadiesGlobal.png"
 width="150px"
+alt="R-Ladies logo"
 />
 
 # R-Ladies Global 
 
-[`r fontawesome::fa("link", fill = "#FFFFFF")` rladies.org](https://rladies.org)<br/>
-[`r fontawesome::fa("twitter", fill = "#FFFFFF")` @RLadiesGlobal](https://twitter.com/rladiesglobal)<br/>
-[`r fontawesome::fa("paper-plane", fill = "#FFFFFF")` info@rladies.org](mailto:info@rladies.org)<br>
-[`r fontawesome::fa("slack", fill = "#FFFFFF")` Join the Slack](https://rladies-community-slack.herokuapp.com/)
+[`r fontawesome::fa("link", a11y = "sem", fill = "#FFFFFF")` rladies.org](https://rladies.org)<br/>
+[`r fontawesome::fa("twitter", a11y = "sem", fill = "#FFFFFF")` @RLadiesGlobal](https://twitter.com/rladiesglobal)<br/>
+[`r fontawesome::fa("paper-plane", a11y = "sem", fill = "#FFFFFF")` info@rladies.org](mailto:info@rladies.org)<br>
+[`r fontawesome::fa("slack", a11y = "sem", fill = "#FFFFFF")` Join the Slack](https://rladies-community-slack.herokuapp.com/)
 
 ???
 Hello! My name is R-Ladies Global and I'm excited to be here to help promote gender diversity in the R community.
+
+This slide uses:
+- `rmarkdown::metadata` to access YAML metadata
+- icons from the fontawesome package with the `ally = "sem"` (semantic attribute) accessibility feature.
+- image inserted using html code and including the alternative text attribute
 
 --
 
@@ -262,12 +268,14 @@ class: middle, inverse, title-slide
 .right[
 <img style="border-radius: 50%;"
 src="img/RLadiesGlobal.png"
-width="150px" />
+width="150px"
+alt="R-Ladies logo"
+/>
 
-[`r fontawesome::fa("link", fill = "#FFFFFF")` rladies.org](https://rladies.org)<br/>
-[`r fontawesome::fa("twitter", fill = "#FFFFFF")` @RLadiesGlobal](https://twitter.com/rladiesglobal)<br/>
-[`r fontawesome::fa("paper-plane", fill = "#FFFFFF")` info@rladies.org](mailto:info@rladies.org)<br>
-[`r fontawesome::fa("slack", fill = "#FFFFFF")` Join the Slack](https://rladies-community-slack.herokuapp.com/)
+[`r fontawesome::fa("link", a11y = "sem", fill = "#FFFFFF")` rladies.org](https://rladies.org)<br/>
+[`r fontawesome::fa("twitter", a11y = "sem", fill = "#FFFFFF")` @RLadiesGlobal](https://twitter.com/rladiesglobal)<br/>
+[`r fontawesome::fa("paper-plane", a11y = "sem", fill = "#FFFFFF")` info@rladies.org](mailto:info@rladies.org)<br>
+[`r fontawesome::fa("slack", a11y = "sem", fill = "#FFFFFF")` Join the Slack](https://rladies-community-slack.herokuapp.com/)
 ]]
 
 ???
@@ -275,4 +283,4 @@ Thank you for joining me!
 You can find my contact information linked on this slide if you want to get in touch, and I'm happy to take any questions.
 
 This slide also uses:
-- the `title-slide` class, to remove the slide number at the bottom :)
+- the `title-slide` class, to remove the slide number at the bottom
